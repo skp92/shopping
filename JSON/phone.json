@@ -1,0 +1,83 @@
+{
+	"info": {
+		"message": "Apple' mobile Products",
+		"status": "Available",
+		"title": "iPhone"
+	},
+	"iphoneData": {
+		"mobiles": [{
+			"imgURL": "attachments/apple-iphone-7-plus-03.jpg",
+			"Price": 52550,
+			"ItemName": "iPhone 7 Plus"
+		}, {
+			"imgURL": "attachments/images.jpg",
+			"Price": 60000,
+			"ItemName": "iPhone 7 Plus 32GB"
+		}, {
+			"imgURL": "attachments/iphone-6-spacegrey.png",
+			"Price": 45000,
+			"ItemName": "iPhone 6S Plus"
+		}]
+	},	
+	"samsungData": {
+		"mobiles": [{
+			"ItemName": "Samsung Galaxy S7",
+			"imgURL": "attachments/default-hero.png",
+			"Price": "50,999"
+			
+		}, {
+			"ItemName": "Galaxy S6",
+			"imgURL": "attachments/Galaxy-S6.png",
+			"Price": "60,000"
+			
+		}, {
+			"ItemName": "Samsung Galaxy J5",
+			"imgURL": "attachments/4_zu_3_SGalaxy_J5_2016.png",
+			"Price": "45,000"
+		}]
+	},
+	"lenovoData": {
+		"mobiles": [{
+			"ItemName": "Lenovo K6",
+			"imgURL": "attachments/Lenovo-K6-Note-price-Review.jpg",
+			"Price": "14,500"
+			
+		}, {
+			"ItemName": "Lenovo K5",
+			"imgURL": "attachments/lenovo-vibe-k5-plus-india-launch.jpg",
+			"Price": "11,000"
+			
+		}, {
+			"ItemName": "Lenovo Vibe S1",
+			"imgURL": "attachments/1113799-01.jpg",
+			"Price": "12,999"
+		}, {
+			"ItemName": "Lenovo Vibe X2",
+			"imgURL": "attachments/Vibe-X2.png",
+			"Price": "15,599"
+		}]
+	},
+	
+	"motoData": {
+		"mobiles": [{
+			"ItemName": "Moto Z Play",
+			"imgURL": "attachments/Flipbook-Product-Center-State1-MotoZROWbd5zypj0.png",
+			"Price": "24,599"
+			
+		},  {
+			"ItemName": "Moto X Style",
+			"imgURL": "attachments/motox_style_specsexpanded_d.jpg",
+			"Price": "28,999"
+		
+		}, {
+			"ItemName": "Moto X Play",
+			"imgURL": "attachments/moto_xplay_motoxplay_product.png",
+			"Price": "17,499"
+			
+		}, {
+			"ItemName": "Moto G4 Plus",
+			"imgURL": "attachments/motog4plus-specsexpanded_dyfpskvtj.jpg",
+			"Price": "12,599"
+		}]
+	}
+}

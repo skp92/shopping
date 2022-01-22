@@ -1,0 +1,250 @@
+body{
+	background-color: lavenderblush;
+}
+
+.Banner{
+	font-size: x-large;
+    font-family: cursive;
+    background-color: lightblue;
+	text-align: center;
+	height: 50px;
+}
+
+.Banner img{
+	height: 50px;
+    width: 91px;
+    float: right;
+    cursor: pointer;
+}
+
+.Banner #itemSelected{
+	float: right;
+    margin-right: -58px;
+    font-size: initial;
+    font-style: oblique;
+    color: brown;
+}
+
+.Items{
+	display: inline-flex;
+}
+
+.leftPanel{
+	display: table-caption;
+}
+
+.leftPanel img{
+	height:120px;
+	width:150px;
+	padding: 10px;
+	cursor:pointer;
+}
+
+.chkBox{
+	padding-top: 64px;
+}
+
+.contents{
+	max-width: auto;
+    height: auto;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    top: 71px;
+    left: 221px;
+    padding: 10px;
+}
+
+.boxAppleItem{
+	    display: -webkit-inline-box;
+}
+
+.boxItems div{
+	padding:10px;
+}
+.ContentImages{
+	width: auto;
+	height: 280px;
+	background:none;
+}
+.Items{
+	display:-webkit-inline-box;
+	text-align: center;
+}
+
+.Items button{
+	width:auto;
+	height:auto;
+}
+
+.itemLabel{
+	font-style: oblique;
+    /* margin: 10px; */
+    margin-top: 10px;
+}
+
+.BasketBtn{
+	
+	padding: 10px;
+    background-color: forestgreen;
+    border-style: double;
+    font-size: medium;
+    font-family: sans-serif;
+    color: ghostwhite;
+    margin-top: 10px;
+	border-radius: 16px;
+	cursor: pointer;
+	
+}
+
+.BasketRemoveBtn{
+	
+	padding: 10px;
+    background-color: darkred;
+    border-style: double;
+    font-size: medium;
+    font-family: sans-serif;
+    color: ghostwhite;
+    margin-top: 10px;
+	border-radius: 16px;
+	cursor: pointer;
+	
+}
+
+
+.form{
+    /*background-color: #f3f3f3;
+    border: solid 1px #a1a1a1;*/
+    padding: 50px;
+    width: 350px;
+    margin-left: 230px;
+    
+}
+    
+.form label, .form input, .form textarea {
+    display: block;
+    width: 130px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.form input, .form textarea{
+    border-color: cornflowerblue;
+    border-radius: 7px;
+}
+
+.form h2{
+    text-align: center;
+    color: darkorange;
+    font-family: cursive;
+}
+
+
+.form label{
+    margin-left: 20px;
+    font-family: cursive;
+    font-size: medium;
+    color: cornflowerblue;
+    text-align: right;
+    padding-right: 26px;
+    padding-bottom: 7px;
+}
+ 
+br{
+    clear: left;
+}
+
+.orderButton{
+    color: slateblue;
+    padding: 08px;
+    font-size: inherit;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 50px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+
+}
+
+.emptyCart{
+	margin-left: 416px;
+    margin-top: 252px;
+    font-style: italic;
+    font-family: inherit;
+    color: coral;
+}
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    bottom: 0;
+	top: 131px;
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
